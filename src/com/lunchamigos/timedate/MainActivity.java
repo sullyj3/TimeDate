@@ -49,10 +49,9 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public int storeTime() {
+    public void storeTime(View view) {
 	Time now = new Time();
 	now.setToNow();
-    	return 0;
     }
     
     /**
