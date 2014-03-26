@@ -12,7 +12,9 @@
 03-26 21:05:58.723: W/dalvikvm(26118): threadid=1: thread exiting with uncaught exception (group=0x41553ce0)
 03-26 21:05:58.723: E/AndroidRuntime(26118): FATAL EXCEPTION: main
 03-26 21:05:58.723: E/AndroidRuntime(26118): Process: com.lunchamigos.timedate, PID: 26118
+*****************
 03-26 21:05:58.723: E/AndroidRuntime(26118): java.lang.IllegalStateException: Could not find a method storeTime(View) in the activity class com.lunchamigos.timedate.MainActivity for onClick handler on view class android.widget.Button with id 'button1'
+*****************
 03-26 21:05:58.723: E/AndroidRuntime(26118): 	at android.view.View$1.onClick(View.java:3817)
 03-26 21:05:58.723: E/AndroidRuntime(26118): 	at android.view.View.performClick(View.java:4445)
 03-26 21:05:58.723: E/AndroidRuntime(26118): 	at android.view.View$PerformClick.run(View.java:18429)
