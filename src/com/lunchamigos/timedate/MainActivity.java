@@ -5,12 +5,14 @@ import com.lunchamigos.timedate.R;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 import android.os.Build;
 import android.text.format.Time;
 
@@ -52,6 +54,13 @@ public class MainActivity extends ActionBarActivity {
     public void storeTime(View view) {
 	Time now = new Time();
 	now.setToNow();
+
+	Context context = getApplicationContext();
+	CharSequence toast_message = "Time stored to variable";
+	int duration = Toast.LENGTH_SHORT;
+
+	Toast toast = Toast.makeText(context, toast_message, duration);
+	toast.show();
     }
     
     /**
